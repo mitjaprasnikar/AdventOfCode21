@@ -12,7 +12,7 @@ namespace AdventOfCode
     {
         public static void Day1Function()
         {
-            string[] lines = File.ReadAllLines("D:\\Projekti\\AdventOfCode\\bin\\Debug\\Day1.txt");
+            string[] lines = File.ReadAllLines("D:\\Projekti\\AdventOfCode\\InputFiles\\Day1.txt");
             int counter = 0;
             int prevLine = 0;
             List<int> sums = new List<int>();
