@@ -31,24 +31,13 @@ namespace AdventOfCode
                         counter++;
                     } while (counter <= steps);
 
-                   // Console.WriteLine("Position: " + splitLine[i] + " to: " + crb + " fuel: " + sum);
+                 
                     results += sum;
                    
                 }
-               // Console.WriteLine("Total cost:" + results);
+              
                 total[j] = results;
             }
-
-
-            //total.Min();
-          //  int lowest = total[0];
-          //  foreach(int value in total)
-          //  {
-          //      if(value<lowest)
-          //      {
-          //          lowest = value;
-          //      }
-          //  }
 
 
             Console.WriteLine("Cheapest outcome: " + total.Min());
