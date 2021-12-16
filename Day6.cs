@@ -33,7 +33,7 @@ namespace AdventOfCode
             listOfFishes = fillListOfFishes(splitLine);
             for (int i=0;i<days;i++)
             {
-                //listOfFishes= completeDay(listOfFishes);
+             
               listOfFishes= completeDay(listOfFishes);
             }
 
