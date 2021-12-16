@@ -25,6 +25,9 @@ namespace AdventOfCode
             Console.WriteLine("Day5 result: ");
             Day5.Day5Function();
 
+            Console.WriteLine("Day6 result: ");
+            Day6.Day6Function();
+
 
 
 
