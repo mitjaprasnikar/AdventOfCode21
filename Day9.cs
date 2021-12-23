@@ -100,8 +100,6 @@ namespace AdventOfCode
                                                || x.X == lastPoint.X && x.Y == (lastPoint.Y - 1) 
                                                || x.X == lastPoint.X && x.Y == (lastPoint.Y + 1));
 
-                
-               //var query = leftBasin.Where(x => x.Value == (lastPoint.Value + 1));
                foreach(var p1 in leftBasin)
                 {
                     
@@ -115,13 +113,8 @@ namespace AdventOfCode
                     }
                 }
 
-              
-                
-
 
                 return counter;
-
-
 
             }
 
@@ -173,11 +166,6 @@ namespace AdventOfCode
 
         }
 
-        public static void startThread(Point point)
-        {
-            
-        }
-        
 
     }
 }

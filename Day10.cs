@@ -13,8 +13,15 @@ namespace AdventOfCode
         public static void Day9Function()
         {
             string[] lines = File.ReadAllLines("D:\\Projekti\\AdventOfCode\\InputFiles\\Day10.txt");
-            //List<string> 
+             
 
+            foreach (string line in lines)
+            {
+                for(int i=0;i<line.Length; i++)
+                {
+
+                }
+            }
         }
 
 
