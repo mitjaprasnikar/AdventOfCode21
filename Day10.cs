@@ -13,15 +13,6 @@ namespace AdventOfCode
         public static void Day10Function()
         {
             string[] lines = File.ReadAllLines("D:\\Projekti\\AdventOfCode\\InputFiles\\Day10.txt");
-            List<char> openers = new List<char>();
-            List<char> wrong = new List<char>();
-            List<char> wrong1 = new List<char>();
-            //int score = 0;
-
-
-            //   List<string>? data = null;
-            //   using (var sr = new StreamReader(@"input.txt"))
-            //       data = sr.ReadToEnd().Split($"\r\n", StringSplitOptions.RemoveEmptyEntries).ToList();
 
             List<char> open = new List<char>() { '[', '(', '{', '<' };
             List<char> close = new List<char>() { ']', ')', '}', '>' };

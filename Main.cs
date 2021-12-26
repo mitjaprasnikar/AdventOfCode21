@@ -37,12 +37,18 @@ namespace AdventOfCode
             // Console.WriteLine("Day9 result: ");
             // Day9.Day9Function();
 
-            Console.WriteLine("Day10 result: ");
-            Day10.Day10Function();
+            //Console.WriteLine("Day10 result: ");
+            //Day10.Day10Function();
 
             //Console.WriteLine("Day11 result: ");
             //Day11.Day11Function();
-            
+
+            Console.WriteLine("Day12 result: ");
+            Day12.Day12Function();
+
+            Console.WriteLine("Day13 result: ");
+            Day13.Day13Function();
+
 
 
 
