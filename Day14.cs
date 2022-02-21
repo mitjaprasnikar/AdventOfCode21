@@ -59,6 +59,7 @@ namespace AdventOfCode
             List<long> counts = new List<long>();
 
             IEnumerable<char> distinctAges = polymerTemp.Distinct();
+
             foreach (char ch in distinctAges)
             {
                 int counter = 0;

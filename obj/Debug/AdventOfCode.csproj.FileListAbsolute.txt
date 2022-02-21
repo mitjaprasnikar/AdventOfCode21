@@ -5,3 +5,4 @@ D:\Projekti\AdventOfCode\obj\Debug\AdventOfCode.csproj.AssemblyReference.cache
 D:\Projekti\AdventOfCode\obj\Debug\AdventOfCode.csproj.CoreCompileInputs.cache
 D:\Projekti\AdventOfCode\obj\Debug\AdventOfCode.exe
 D:\Projekti\AdventOfCode\obj\Debug\AdventOfCode.pdb
+D:\Projekti\AdventOfCode\obj\Debug\AdventOfCode.csproj.SuggestedBindingRedirects.cache

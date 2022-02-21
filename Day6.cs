@@ -25,16 +25,28 @@ namespace AdventOfCode
 
         public static void Day6Function()
         {
-
-            int days = 256;
+            List<ulong> fish12 = new List<ulong>();
+            int days = 80;
             string[] lines = File.ReadAllLines("D:\\Projekti\\AdventOfCode\\InputFiles\\Day6.txt");
-            string[] splitLine = lines[0].Split(',');
+            List<string> splitLine = lines[0].Split(',').ToList();
+            splitLine.ForEach(x => fish12.Add(ulong.Parse(x)));
+
+       
+            
+           
+           // foreach (string num in splitLine)
+           // {
+           //     fish1 += ulong.Parse(num);
+           // }
+           
             List<LanternFish> listOfFishes = new List<LanternFish>();
-            listOfFishes = fillListOfFishes(splitLine);
+            //listOfFishes = fillListOfFishes(splitLine);
             for (int i=0;i<days;i++)
             {
              
-              listOfFishes= completeDay(listOfFishes);
+              //listOfFishes= 
+              
+              fish12 = completeDay(fish12);
             }
 
             Console.WriteLine("There are: " + listOfFishes.Count() + " lanternfishes");
@@ -56,32 +68,62 @@ namespace AdventOfCode
 
         }
 
-        private static List<LanternFish> completeDay(List<LanternFish> fishes)
+        private static List<ulong> completeDay(List<ulong> fishes)
         {
-            List<LanternFish> newlist = new List<LanternFish>();
+            List<ulong> tt = new List<ulong>();
+            var oth = fishes.Where(x => x == 0).ToList();
+            oth.ForEach(x => tt.Add(8));
+            oth.ForEach(x => tt.Add(6));
 
-            foreach (LanternFish fish in fishes)
-            {
-                fish.timer = fish.timer - 1;
 
-                if (fish.timer==0)
-                {
-                   
-                    
+            tt.AddRange(fishes.Where(x => x > 0 && x < 8).Select(f => { f = f - 1; return f; }));
+            tt.AddRange(fishes.Where(x => x == 0).Select(f => { f = 6; return f; }));
+            
+            //fishes.Clear();
+           // fishes.AddRange(oth);
+            //fishes.AddRange(k);
+            //fishes.AddRange(s);
+            
+            //fishes.Where(x => x != 0).Select(f => f=f-1);
+            //
+            // var k = fishes.Where(w => w == 0).ToList();
+            // k.ForEach(f => f = 6);
+            //fishes.Clear();
+            //fishes.AddRange(s);
+            //fishes.AddRange(k);
 
-                } else if(fish.timer<0)
-                {
-                    fish.timer = 6;
-                    var lf1 = new LanternFish();
-                    lf1.timer = 8;
-                    newlist.Add(lf1);
+            //t.ForEach(f => fishes.Add(8));
 
-                }
 
-                newlist.Add(fish);
-            }
+            //for (int i=0;i<countZeros;i++)
+            //{
+            //    var lf1 = new LanternFish();
+            //    lf1.timer = 8;
+            //    fishes.Add(lf1);
+            //}
 
-            return newlist;
+            // foreach (LanternFish fish in fishes)
+            // {
+            //     fish.timer = fish.timer - 1;
+            //
+            //     if (fish.timer==0)
+            //     {
+            //        
+            //         
+            //
+            //     } else if(fish.timer<0)
+            //     {
+            //         fish.timer = 6;
+            //         var lf1 = new LanternFish();
+            //         lf1.timer = 8;
+            //         newlist.Add(lf1);
+            //
+            //     }
+            //
+            //     newlist.Add(fish);
+            // }
+
+            return fishes;
 
         }
 

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace AdventOfCode
 {
     class Program
     {
+        
         private static void Main(string[] args)
         {
             //Console.WriteLine("Day1 result: " );
@@ -25,8 +26,8 @@ namespace AdventOfCode
             //Console.WriteLine("Day5 result: ");
             //Day5.Day5Function();
             //
-            ////Console.WriteLine("Day6 result: ");
-            ////Day6.Day6Function();
+            //Console.WriteLine("Day6 result: ");
+            //Day6.Day6Function();
             //
             //Console.WriteLine("Day7 result: ");
             //Day7.Day7Function();
@@ -49,9 +50,17 @@ namespace AdventOfCode
             //Console.WriteLine("Day13 result: ");
             //Day13.Day13Function();
 
-            Console.WriteLine("Day14 result: ");
-            Day14.Day14Function();
+            //Console.WriteLine("Day14 result: ");
+            //Day14.Day14Function();
 
+            Console.WriteLine("Day15 result: ");
+            Day15.Day15Function();
+
+            //Console.WriteLine("Day16 result: ");
+            //Day16.Day16Function();
+
+            //Console.WriteLine("Day18 result: ");
+            //Day18.Day18Function();
 
 
 

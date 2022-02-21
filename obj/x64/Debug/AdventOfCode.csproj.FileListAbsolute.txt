@@ -1,0 +1,8 @@
+D:\Projekti\AdventOfCode\bin\x64\Debug\AdventOfCode.exe.config
+D:\Projekti\AdventOfCode\bin\x64\Debug\AdventOfCode.exe
+D:\Projekti\AdventOfCode\bin\x64\Debug\AdventOfCode.pdb
+D:\Projekti\AdventOfCode\obj\x64\Debug\AdventOfCode.csproj.SuggestedBindingRedirects.cache
+D:\Projekti\AdventOfCode\obj\x64\Debug\AdventOfCode.csproj.CoreCompileInputs.cache
+D:\Projekti\AdventOfCode\obj\x64\Debug\AdventOfCode.exe
+D:\Projekti\AdventOfCode\obj\x64\Debug\AdventOfCode.pdb
+D:\Projekti\AdventOfCode\obj\x64\Debug\AdventOfCode.csproj.AssemblyReference.cache
